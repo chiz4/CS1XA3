@@ -11,6 +11,10 @@ while [ $func != "exit" ]
 do
 	if [ $func = "TODO" ];then
 		cp /dev/null ~/CS1XA3/Project01/todo.log
+		if [ -e "todo.log" ]
+		then
+			rm todo.log
+		fi
 		checklist=$( git ls-files )
 		for note in $checklist
 		do
