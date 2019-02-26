@@ -1,0 +1,4 @@
+Project01/project_analyze.sh:		grep -r --exclude="todo.log" "#TODO" > ~/CS1XA3/todo.log
+Project01/project_analyze.sh.save:		grep "#TODO" ../ -n -r --exclude=todo.log > todo.log
+Project01/README.md:Current version: Finished Part 1 and 6, can attatch every line with a "#TODO" and can remove all of the
+Project01/README.md:loop so that we can checkout every line and plug in a "#TODO". I checked stackoverflow to use others idea which

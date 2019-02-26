@@ -6,3 +6,5 @@ determine which function is going to be run. Next,for part 1. Basically is just 
 loop so that we can checkout every line and plug in a "#TODO". I checked stackoverflow to use others idea which
 could simplify the program.
 For part 6 it is quite straightforward. We get every .tmp file and put it into a list, then delete it and the work is done.
+Final Version:
+fixed the bug that #TODO might overflow, finished the merge log feature.And add a cunstom feature that could check whether the user is online or not.
